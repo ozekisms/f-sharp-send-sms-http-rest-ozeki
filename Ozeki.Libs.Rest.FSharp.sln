@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendSms", "SendSms\SendSms.fsproj", "{C3DFD889-64E4-4F79-A0F9-F802DFFE232B}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendScheduledSms", "SendScheduledSms\SendScheduledSms.fsproj", "{ECAD70CE-4491-4A23-83F5-DD5FC4B9F89D}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SendMultipleSms", "SendMultipleSms\SendMultipleSms.fsproj", "{77C594B0-D9A6-4EB4-BF28-77CE8380CCD9}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ReceiveSms", "ReceiveSms\ReceiveSms.fsproj", "{D4168680-8B35-490F-9ECE-21868BC5B9E4}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DeleteSms", "DeleteSms\DeleteSms.fsproj", "{B2DEC965-E386-4C9C-A5AA-D244BE827090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozeki.Libs.Rest", "Ozeki.Libs.Rest\Ozeki.Libs.Rest.csproj", "{ECDF562A-95A2-4A5E-85D4-16E74AF5927E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3DFD889-64E4-4F79-A0F9-F802DFFE232B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DFD889-64E4-4F79-A0F9-F802DFFE232B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DFD889-64E4-4F79-A0F9-F802DFFE232B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DFD889-64E4-4F79-A0F9-F802DFFE232B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAD70CE-4491-4A23-83F5-DD5FC4B9F89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAD70CE-4491-4A23-83F5-DD5FC4B9F89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAD70CE-4491-4A23-83F5-DD5FC4B9F89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAD70CE-4491-4A23-83F5-DD5FC4B9F89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C594B0-D9A6-4EB4-BF28-77CE8380CCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C594B0-D9A6-4EB4-BF28-77CE8380CCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C594B0-D9A6-4EB4-BF28-77CE8380CCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C594B0-D9A6-4EB4-BF28-77CE8380CCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4168680-8B35-490F-9ECE-21868BC5B9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4168680-8B35-490F-9ECE-21868BC5B9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4168680-8B35-490F-9ECE-21868BC5B9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4168680-8B35-490F-9ECE-21868BC5B9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DEC965-E386-4C9C-A5AA-D244BE827090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DEC965-E386-4C9C-A5AA-D244BE827090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DEC965-E386-4C9C-A5AA-D244BE827090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DEC965-E386-4C9C-A5AA-D244BE827090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDF562A-95A2-4A5E-85D4-16E74AF5927E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDF562A-95A2-4A5E-85D4-16E74AF5927E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDF562A-95A2-4A5E-85D4-16E74AF5927E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDF562A-95A2-4A5E-85D4-16E74AF5927E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8143E539-51C0-4CF2-AF99-D64741445927}
+	EndGlobalSection
+EndGlobal
