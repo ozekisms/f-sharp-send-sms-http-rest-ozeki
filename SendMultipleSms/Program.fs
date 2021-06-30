@@ -19,11 +19,11 @@ let main argv =
         ToAddress = "+36203333333", 
         Text = "Hello, World 3")
 
-    let messages = [msg1; msg2; msg3]
+    let messages = [ msg1; msg2; msg3 ]
 
     let api = new MessageApi(configuration)
 
     let result = api.Send(messages)
 
-    printfn $"{result.ToString()}"
+    printfn $"{result}"
     0

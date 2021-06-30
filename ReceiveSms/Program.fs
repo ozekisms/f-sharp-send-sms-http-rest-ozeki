@@ -13,5 +13,5 @@ let main argv =
 
     printfn $"There are {result.Length} messages in the inbox folder:"
     for message in result do
-        printfn $"From: {message.FromAddress} - Text: {message.Text}"
+        printfn $"{message}"
     0

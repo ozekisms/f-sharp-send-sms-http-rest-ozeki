@@ -15,5 +15,5 @@ let main argv =
 
     let result = api.Send(msg)
 
-    printfn $"{result.ToString()}"
+    printfn $"{result}"
     0
